@@ -1,0 +1,52 @@
+.feed {
+  max-width: 1000px;       /* center column width */
+  margin: 0 auto;        /* center horizontally */
+  border-top: 1px solid #2f3336;
+  border-bottom: 1px solid #2f3336;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.headerDesign{
+    background-color: aquamarine;
+    position: sticky;
+    padding: 20px;
+    width: 100%;
+}
+
+.post {
+    background-color: #0ac9b9;
+    margin: 12px auto;
+    border-radius: 10px;
+    padding: 16px;          /* space inside each post */
+    border: 1px solid #2f3336;
+    width: 90%;
+    overflow: hidden;
+}
+
+.post p, h3 {
+  color: #000;
+  overflow-wrap: anywhere;
+}
+
+.navItem {
+  padding: 12px;
+  margin: 12px auto;
+  border-radius: 8px;
+  border: 1px solid #2f3336;
+  cursor: pointer;
+}
+.post p {
+  margin: 0;
+  line-height: 1.5;       /* spacing between text lines */
+}
+
+.sidebar {
+  width: 250px;
+  padding: 16px;
+  background-color:cornsilk; 
+  border-radius: 8px;
+  border: 1px solid #2f3336;
+}

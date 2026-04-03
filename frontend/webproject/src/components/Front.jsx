@@ -12,11 +12,20 @@ export default function Front () {
     "as i learn things to reflect on my learnings"
     return (
         <>
-        <div className="introBody">
+        <div className="feed">
+            <header className="headerDesign"/>
+            <div className="post">
             <h2>About me</h2>
             <p className="intro">
                 {aboutMe}
             </p>
+            </div>
+            <div className="post">
+            <h2>About me</h2>
+            <p className="intro">
+                {aboutMe}
+            </p>
+             </div>          
             <hr></hr>
         </div>     
             <div className="socials">            
